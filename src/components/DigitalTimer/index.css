@@ -1,0 +1,75 @@
+/* Write your CSS here */
+* {
+  text-align: center;
+}
+img {
+  height: 20px;
+  width: 20px;
+}
+button {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+  font-size: 30px;
+}
+body {
+  height: 90vh;
+  background-color: #cffcf1;
+}
+.body {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+}
+.settime {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.settime p {
+  background-color: aquamarine;
+  font-size: 25px;
+  width: 60px;
+  text-align: center;
+}
+.timetime {
+  width: 400px;
+  height: 400px;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png);
+  background-size: cover;
+  position: relative;
+}
+.bla {
+  background-color: white;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 110px;
+  top: 140px;
+}
+.bla h1 {
+  font-size: 25px;
+  margin-bottom: 0px;
+  color: aqua;
+}
+.bla p {
+  font-size: 15px;
+  margin-top: 0px;
+}
+.classs {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+.para {
+  text-align: center;
+}
